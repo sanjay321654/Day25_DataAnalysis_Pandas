@@ -10,10 +10,10 @@
 #         if row[1] != "temp":
 #             temperature.append(int(row[1]))
 #     print(temperature)
-
-import pandas
-
-weather_data = pandas.read_csv("weather_data.csv")
+#
+# import pandas
+#
+# weather_data = pandas.read_csv("weather_data.csv")
 # print(weather_data.to_dict())
 
 # data = weather_data["temp"].tolist()
@@ -38,10 +38,10 @@ weather_data = pandas.read_csv("weather_data.csv")
 # print(monday.condition)
 
 # Create a data frame from scratch.
-data_dict = {
-    "students": ["sanjay", "praba", "kash"],
-    "scores": [75, 99, 80]
-}
-data = pandas.DataFrame(data_dict)
+# data_dict = {
+#     "students": ["sanjay", "praba", "kash"],
+#     "scores": [75, 99, 80]
+# }
+# data = pandas.DataFrame(data_dict)
 # print(data)
-data.to_csv("data.csv")
+# data.to_csv("data.csv")
